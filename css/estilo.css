@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --site_bg: #ffdead;
+    --form_bg: #ffffff;
+    --btt: #c97a05;
+    --btt_hover: #ffa41b;
+    --btt_text: #ffffff;
+
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: var(--site_bg);
+}
+
+#form_box{
+     margin: auto;
+     padding: 20px;
+     width: max-content;
+     border-radius: 5px;
+     background-color: var(--form_bg);
+}
+input{
+    margin-bottom: 15px;
+}
+
+label, input{
+    display: block;
+}
+
+#i_login, #i_senha{
+    width: 230px;
+    height: 25px;
+}
+
+#i_btt{
+    cursor: pointer;
+    width: 237px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--btt);
+    color: var(--btt_text);
+    font-weight: bolder;
+}
+
+#i_btt:hover{
+    transition: 0.6s;
+    background-color: var(--btt_hover);
+}
+
